@@ -1,3 +1,19 @@
+
+.about-section{
+    margin-top: 80px;
+}
+.communication-section{
+    padding: 10px;
+    margin-top: 110px;
+    /* background-color: rgba(45, 45, 133, 0.4); */
+}
+.communication-part{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 2%;
+}
+
 .about-section p{
 text-align: justify;
 line-height: 6vh;
@@ -7,4 +23,7 @@ line-height: 6vh;
     color: #666666;
     font-size: 15px;
     padding: 10px;
+}
+.about-card-img{
+    box-shadow: 5px 5px 10px lightgray;
 }

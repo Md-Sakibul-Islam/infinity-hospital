@@ -6,10 +6,13 @@ import a1 from "../../images/award1.jpg";
 import a2 from "../../images/award2.jpg";
 import a3 from "../../images/award3.jpg";
 import a4 from "../../images/award4.jpg";
+import callLogo from "../../images/call.png";
+import locationLogo from "../../images/location.png";
+import ambulance from "../../images/ambulance.png";
 
 const About = () => {
   return (
-    <div className="container about-section mt-5">
+    <div className="container about-section">
       <Row>
         <Col sm={12} md={8} lg={8}>
           <div>
@@ -42,7 +45,10 @@ const About = () => {
         {" "}
         <span className="text-center text-danger">
           {" "}
-          <h2> <span>Infinity Hospital </span> Awards</h2>
+          <h2>
+            {" "}
+            <span>Infinity Hospital </span> Awards
+          </h2>
           <hr />
         </span>
         <Row>
@@ -54,73 +60,116 @@ const About = () => {
                 Awards:
               </h4>
               <p>
-              ♦“Best Hospital Award” by Rotary Club of Vellore Fort for the
-                year 2006  <br />♦ “Excellence Award” in promoting global integration
-                at Kathmandu, Nepal on 7th February 2007  <br />♦ “Appreciation Award”
-                by Indian Redcross Blood Bank Chittoor District for the year
-                2007 <br /> ♦ “Achievement Award” by Azeez – Chida foundation, Ottawa,
-                Canada and Indian Medical Association – Dr. A.M. Ikrams Social
-                Welfare Trust Vellore on 27.10.2007 <br /> ♦ “Award of Honor” presented
-                to SNH&RC by ‘Connecting with Children’- Schneider Children’s
-                Medical Centre of Israel 2009 <br /> ♦ “Best Community Service Award”
-                Indian Medical Association Vellore Branch for the year 2010 <br /> ♦
+                ♦“Best Hospital Award” by Rotary Club of Vellore Fort for the
+                year 2006 <br />♦ “Excellence Award” in promoting global
+                integration at Kathmandu, Nepal on 7th February 2007 <br />♦
+                “Appreciation Award” by Indian Redcross Blood Bank Chittoor
+                District for the year 2007 <br /> ♦ “Achievement Award” by Azeez
+                – Chida foundation, Ottawa, Canada and Indian Medical
+                Association – Dr. A.M. Ikrams Social Welfare Trust Vellore on
+                27.10.2007 <br /> ♦ “Award of Honor” presented to SNH&RC by
+                ‘Connecting with Children’- Schneider Children’s Medical Centre
+                of Israel 2009 <br /> ♦ “Best Community Service Award” Indian
+                Medical Association Vellore Branch for the year 2010 <br /> ♦
                 “Best Management (Nirvaga Semmal) Award by Indian Medical
-                Association 2010 <br /> ♦  “Humanitarian Award” by Sri Narayani Peedam
-                for the year 2011 <br /> ♦ Tamil Nadu Government Health Insurance
-                Scheme Kalaignar Kapittu Thittam Best Hospital Service Award
-                (2011) <br /> ♦ Manitha Nalam Kappalar from All India Journalist
-                Welfare Association 2016 <br /> ♦ Best Non Profit Hospital 2017,
-                awarded by FICCI – TANCARE & Health & Family Welfare, Govt of
-                Tamilnadu LEGEND IN HEALTHCARE Award 2017 by Beloved Sri Sakthi
-                Amma <br /> ♦ In recognition of significant contribution for
-                advancement of Medical Sciences Our Honourable Dr.N.Balaji
-                Director & Trustee SNHRC has been elected Member of the National
-                Academy of Medical Sciences (India) in the year 2018. <br /> ♦ "Bharat
-                Vikas Award" Institute of Self-Reliance, Odisha 2018. <br /> ♦ Dr N
-                Balaji, Director & Trustee SNHRC receives at 4th International
-                Health care awards 2019, Time Cybermedia in the Award category:
-                Best health care provider in Vellore, TamilNadu from BCCI Board
-                Member – Cricketer & commentator Shri Sunil Gavaskar held at
-                Mumbai, India on May 18, 2019.
+                Association 2010 <br /> ♦ “Humanitarian Award” by Sri Narayani
+                Peedam for the year 2011 <br /> ♦ Tamil Nadu Government Health
+                Insurance Scheme Kalaignar Kapittu Thittam Best Hospital Service
+                Award (2011) <br /> ♦ Manitha Nalam Kappalar from All India
+                Journalist Welfare Association 2016 <br /> ♦ Best Non Profit
+                Hospital 2017, awarded by FICCI – TANCARE & Health & Family
+                Welfare, Govt of Tamilnadu LEGEND IN HEALTHCARE Award 2017 by
+                Beloved Sri Sakthi Amma <br /> ♦ In recognition of significant
+                contribution for advancement of Medical Sciences Our Honourable
+                Dr.N.Balaji Director & Trustee SNHRC has been elected Member of
+                the National Academy of Medical Sciences (India) in the year
+                2018. <br /> ♦ "Bharat Vikas Award" Institute of Self-Reliance,
+                Odisha 2018. <br /> ♦ Dr N Balaji, Director & Trustee SNHRC
+                receives at 4th International Health care awards 2019, Time
+                Cybermedia in the Award category: Best health care provider in
+                Vellore, TamilNadu from BCCI Board Member – Cricketer &
+                commentator Shri Sunil Gavaskar held at Mumbai, India on May 18,
+                2019.
               </p>
             </div>
           </Col>
         </Row>
         <Row xs={1} md={4} className="g-4">
           <Col>
-            <Card>
+            <Card className="about-card-img">
               <Card.Img variant="top" src={a1} />
               <Card.Body>
                 <Card.Title>"Best Hospital Award"</Card.Title>
-                
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="about-card-img">
               <Card.Img variant="top" src={a2} />
               <Card.Body>
                 <Card.Title>"Excellence Award"</Card.Title>
-               
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="about-card-img">
               <Card.Img variant="top" src={a3} />
               <Card.Body>
                 <Card.Title>"Appreciation Award”</Card.Title>
-                
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card>
-              <Card.Img variant="top" src={a3} />
+            <Card className="about-card-img">
+              <Card.Img variant="top" src={a4} />
               <Card.Body>
                 <Card.Title> " Award of Honor "</Card.Title>
               </Card.Body>
             </Card>
+          </Col>
+        </Row>
+      </div>
+
+      <div className="container communication-section">
+        <Row>
+          <Col md={4} lg={4} sm={12}>
+            <div className="communication-part">
+              <div>
+                <img className="w-25 mb-4" src={callLogo} alt="" />
+              </div>
+              <div>
+                <h5>Have A Question? Call Us Now</h5>
+                <h6>+880172700000</h6>
+                <h6>+880182700000</h6>
+                <h6>+880192700000</h6>
+              </div>
+            </div>
+          </Col>
+          <Col md={4} lg={4} sm={12}>
+            <div className="communication-part">
+              <div>
+                <img className="w-25 mb-4" src={locationLogo} alt="" />
+              </div>
+              <div>
+                <h5>Our Location</h5>
+                <h6>Rajshahi,Laxmipur</h6>
+                <h6>Center Road :-03</h6>
+                <h6>In front of Bank Asia</h6>
+              </div>
+            </div>
+          </Col>
+          <Col md={4} lg={4} sm={12}>
+           <div  className="communication-part" >
+           <div>
+              <img className="w-25 mb-4" src={ambulance} alt="" />
+            </div>
+            <div>
+              <h5>Emergency Ambulance</h5>
+              <h6>+8801327000000</h6>
+              <h6>+8801417000000</h6>
+              <h6>+8801517000000</h6>
+            </div>
+           </div>
           </Col>
         </Row>
       </div>
