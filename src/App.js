@@ -10,6 +10,7 @@ import Banner from "./Components/Banner/Banner";
 import Doctors from "./Components/Doctors/Doctors";
 import Insurance from "./Components/Insurance/Insurance";
 import Login from "./Components/Login/Login";
+import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route path="/login">
            <Login></Login>
+          </Route>
+          <Route path='*'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </BrowserRouter>

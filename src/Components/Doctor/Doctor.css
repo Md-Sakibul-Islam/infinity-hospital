@@ -1,0 +1,19 @@
+.doctor-card-div{
+    overflow: hidden;
+    box-shadow: 8px 8px 10px lightgray;
+}
+
+.doctor-card-div img{
+    transition: all;
+    transform: scale(1);
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in-out;
+  
+    
+}
+.doctor-card-div img:hover{
+    transform: rotate(360deg);
+    transform: scale(1.03);
+    cursor: pointer;
+   
+}
