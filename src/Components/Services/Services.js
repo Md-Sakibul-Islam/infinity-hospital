@@ -14,9 +14,11 @@ const Services = () => {
   }, []);
   return (
     <div className="container mt-5">
+      <div data-aos="fade-up">
       <h3>Our Services </h3>
       <h4> <span className="text-danger">Honesty</span> is our <span className="text-danger">Quality</span> </h4>
 
+      </div>
       <Row xs={1} md={3} className="g-4 mt-4">
         {services.map((service) => (
           <Service service={service}></Service>

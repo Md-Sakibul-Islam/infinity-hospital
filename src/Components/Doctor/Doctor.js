@@ -8,7 +8,7 @@ const Doctor = (props) => {
   return (
     <div className="doctor-section">
       <Col>
-        <Card className="doctor-card-div">
+        <Card data-aos="fade-up" className="doctor-card-div">
          <div className="text-center"> <Card.Img variant="top"  src={img} /></div>
           <Card.Body>
             <Card.Title>{name}</Card.Title>

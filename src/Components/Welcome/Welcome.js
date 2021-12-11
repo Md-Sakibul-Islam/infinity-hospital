@@ -2,13 +2,15 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import wel from '../../images/welcome.png'
 import './Welcome.css'
+
 const Welcome = () => {
+  
     return (
         <div >
            <Container>
            <Row>
-                <Col md={6}  sm={12} lg={5}>
-                  <div className="welcome-section">
+                <Col   data-aos="fade-right" md={6}  sm={12} lg={5}>
+                  <div  className="welcome-section">
                   <div className=' d-flex justify-content-center align-items-center mt-5'>
                   <div>
                   <h2>Welcome To <span className='text-danger'>Infinity Hospital</span> </h2>
@@ -18,8 +20,10 @@ const Welcome = () => {
                   </div>
                 </Col>
                 <Col md={6}  sm={12} lg={6}>
-                    <img src={wel} className='img-fluid w-75' alt="" />
+                   <div data-aos="fade-left">
+                   <img src={wel} className='img-fluid w-75' alt="" />
 
+                   </div>
                 </Col>
             </Row>
            </Container>

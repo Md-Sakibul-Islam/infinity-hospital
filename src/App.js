@@ -12,6 +12,11 @@ import Insurance from "./Components/Insurance/Insurance";
 import Login from "./Components/Login/Login";
 import NotFound from "./Components/NotFound/NotFound";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  duration : 2600
+});
 function App() {
   return (
     <div className="App">
