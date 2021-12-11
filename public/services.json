@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/2tXRVtb/cardiology-removebg-preview.png",
+    "title": "Cardiology",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2021/10/cardio-copy.jpg",
+    "describe": "To all patients in general and the rural population around Rajshahi in particular, the Department of Cardiology at Infinity Hospital provides cardiac care of truly international standards. Our committed critical care units and a fine team of cardiologists on-call at all times of day ensure that expert care is given to each patient. The department features 24-hours emergency care, best-in-class diagnostic and medical equipment, qualified specialists, innovative treatment methods and excellent patient care.",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Subhrangshu-Dey.jpg",
+    "dName": "Dr. Subhrangshu Dey",
+    "depth": "H.O.D"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/YyDBfNk/tooth-removebg-preview.png",
+    "title": "Dental",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/08/dental-copy.jpg",
+    "describe": "Infinity Hospital Dental Department is at the helm of Dental Care in Bangladesh as it offers the best dental treatment in general, cosmetic, implant dentistry and orthodontics. A comprehensive range of dental treatment is offered in all specialist of dentistry by a team of expert dentists. Our committed team of specialists ensure superior results and is ready to answer all questions pertaining to any procedures. The dental centre is equipped with sophisticated equipment that boasts state-of-the-art technology. Our dental surgeons, cosmetic dentists and periodontists work as a collaborative team to give a healthy dental experience to our patients",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Anuradha-Dental.jpg",
+    "dName": "Dr. S. Anuradha",
+    "depth": "H.O.D"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/q5PgT8q/genarelsugery-removebg-preview.png",
+    "title": " General Surgery",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/07/87474.jpg",
+    "describe": "Infinity Hospital General Surgery Department deals with the routine surgical procedures and also provide surgical treatment for a wide range of health conditions including appendicitis (appendectomy), hernias, block dissection of lymph nodes, inguinal hernia, umbilical hernia, abdominal hernia and hernia developing as a complication of previous abdominal surgeries (incisional hernia). Our experienced general and laparoscopic surgeons perform challenging and complicated surgeries to treat life-threatening health conditions of intestines, stomach, liver, abdomen, neck and chest. The general surgery department offer several surgical procedures on a short-term admission basis. Following a day care procedure, the patient can return home the same day after a recovery period.",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/08/SARAVANAN.jpg",
+    "dName": "Dr. R.N. Saravanan",
+    "depth": "H.O.D"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/tXr8jnv/medicine-removebg-preview.png",
+    "title": " General Medicine",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/08/geritric-medicine-copy.jpg",
+    "describe": "Bangladesh is in a phase of demographic transition and the geriatric population is burgeoning. Therefore there is a felt need for specialised produce physicians. who understand the unique health problems of the elderly and who possess the clinical competencies to deal with them. Care of these patients is often fragmented among multiple specialities. The department endeavours to provide holistic care to the aging population by promoting effective, preventive, curative, rehabilitative, promotional and palliative care.",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/R.-Naveen-Kumar-General-Surgery.jpg",
+    "dName": "Dr. R. Naveen Kumar",
+    "depth": "H.O.D"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/0tc1VPm/cosmetic-surgery.png",
+    "title": "Plastic Surgery",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2021/10/plastic-surgery.jpg",
+    "describe": "Microvascular surgery is a complex surgery that make use of sophisticated instruments, operating-room microscope and equipment. Immensely skilled and trained plastic surgeons perform the procedure that involves reconnection of tiny blood vessels (3 to 5 millimetres in diameter) and also free flaps (transfer of tissue) from one area to another area of the body. Ultrafine sutures and tiny needles are used to reconnect small blood vessels, tissues of hands, severed fingers and amputated parts of the body. Microvascular surgery can also be done as a part of reconstructive surgery. The main objective is to reconstruct a defect left from injury, trauma or cancer.",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2021/02/SRINIVA-copy.jpg",
+    "dName": "DR. E.R. SRINIVAS MCh, FCLM",
+    "depth": "H.O.D"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/fHR2Vz3/urology-removebg-preview.png",
+    "title": "Urology",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/08/Untitled-1-copy.jpg",
+    "describe": "Outpatient cystoscopy and stent removal are performed in a painless and comfortable manner using the flexible Cystoscope. We are equipped with a dedicated Urodynamics laboratory and Shock wave lithotripsy suite in the outpatient department. We have committed translators to assist and guide patients from outside states and countries. We have a dedicated billing counter for urology outpatients and they can skip the long waiting queues at billing counters",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Karthikeyan-urology-1.jpg",
+    "dName": "Dr. A. Karthikeyan",
+    "depth": "H.O.D"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/1TP7g5d/vascular-removebg-preview.png",
+    "title": "Vascular Surgery",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Vascularsurgery.jpg",
+    "describe": "Department of Vascular & Endovascular Surgery offer a wide range of services for the diagnosis and treatment of conditions related to arterial, venous and lymphatic systems. Vascular surgery is a specialty of surgery in which diseases of the vascular system, or arteries and veins, are managed by medical therapy, minimally-invasive catheter procedures, and surgical reconstruction. Endovascular surgery is a rapidly advancing field, where the surgeon works via a needle puncture and is able to “recanalize” narrowed or blocked arteries, and prevent dangerously dilated arteries (aneurysms) from bursting by inserting an artificial artery inside the abnormal segment.",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2021/10/sridhar-1.jpg",
+    "dName": "Dr Sridhar.M",
+    "depth": "H.O.D"
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/HNYhFp3/kidney-removebg-preview.png",
+    "title": "Nephrology",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2021/10/nephrology.jpg",
+    "describe": "The Department of Nephrology at Sri Narayani Hospital & Research Centre, Vellore, has a team of specialists, collaborating together to offer the highest standards of care to our patients. The experts, through a multi-disciplinary approach are able to provide accurate diagnosis and treatment along with clinical consultation in all aspects of kidney diseases. The Department of Nephrology provides excellent care in various aspects:-",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2021/10/Ezhilnilavan.jpg",
+    "dName": "Dr. S. Ezhilnilavan",
+    "depth": "H.O.D"
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/pjd2S57/brain-removebg-preview.png",
+    "title": "Neurology",
+    "bgImg": "https://www.narayanihospital.com/nhrcdata/uploads/2020/02/Neurology.jpg",
+    "describe": "Our neurology department provides personalized care for the diagnosis, treatment, and management of several neurological disorders affecting the brain, spinal cord muscles and nerves. We have an integrated team of specialists including neuro physicians, interventional neurologists, migraine and headache specialists, pediatric neurologists, neurooncologists, neurophysiologists, neurosurgeons, physical and occupational therapists, rehabilitation experts and pain management specialists. Our neurologists deal with the diseases of the spine, brain and the peripheral nerves including epilepsy, stroke, Parkinson  disease, cerebrovascular diseases (stenosis, AVM, aneurysm), brain and spinal tumours, movement disorders, neuropathies and other degenerative neurological diseases and paediatric neurological disorders.",
+    "dImg": "https://www.narayanihospital.com/nhrcdata/uploads/2021/10/Dr-Anjali.jpg",
+    "dName": "Dr. Anjali Chouksey",
+    "depth": "H.O.D"
+  }
+]

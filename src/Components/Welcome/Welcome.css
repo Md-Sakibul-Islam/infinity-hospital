@@ -1,0 +1,9 @@
+.welcome-section{
+    padding: 10px;
+    
+}
+.welcome-section p{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 30px;
+}
