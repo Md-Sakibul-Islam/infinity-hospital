@@ -12,7 +12,7 @@ import ambulance from "../../images/ambulance.png";
 
 const About = () => {
   return (
-    <div className="container about-section">
+    <div  id="about" className="container  about-section">
       {/* Here is the about section  */}
       <Row>
         <Col sm={12} md={8} lg={8}>

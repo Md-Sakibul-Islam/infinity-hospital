@@ -6,7 +6,7 @@ import './HealthCarePackage.css'
 const HealthCarePackage = () => {
   const [pack, setPack] = useState([]);
   useEffect(() => {
-    fetch("./health.json")
+    fetch("/health.json")
       .then((res) => res.json())
       .then((data) => setPack(data));
   }, []);

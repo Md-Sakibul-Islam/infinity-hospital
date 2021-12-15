@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/08/BALAMURGAN.jpg",
+    "img": "https://i.ibb.co/Jk6SDWF/BALAMURGAN-1.jpg",
     "name": "Dr. S. Balamurugan",
     "degree": "MD, DNB",
     "depth": "GENERAL MEDICINE",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/02/Dr.-manish-kumar.jpg",
+    "img": "https://i.ibb.co/WtDL5Qg/Dr-manish-kumar.jpg",
     "name": "Dr. Manish Kumar",
     "degree": "MD, DNB",
     "depth": "UROLOGY",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/06/Vilvapathi-Urology-1.jpg",
+    "img": "https://i.ibb.co/Jx5bTZw/Vilvapathi-Urology-1.jpg",
     "name": "Dr. VilvaPathy",
     "degree": "MS, MCH, MRCS, FAIS",
     "depth": "UROLOGY",
@@ -25,15 +25,15 @@
   },
   {
     "id": 4,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/08/BALAMURGAN.jpg",
-    "name": "Dr. S. Anand",
+    "img": "https://i.ibb.co/JytLtJK/kawya.jpg",
+    "name": "Dr. KAWYA KARUNA",
     "degree": "MBBS, DMRT",
     "depth": "ONCOLOGY",
     "position": "CONSULTANT"
   },
   {
     "id": 5,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Anand-Oncology.jpg",
+    "img": "https://i.ibb.co/M1VMTCJ/Anand-Oncology.jpg",
     "name": "Dr. S. Anand",
     "degree": "MBBS, DMRT",
     "depth": "ONCOLOGY",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Angappan-Paediatrics.jpg",
+    "img": "https://i.ibb.co/SytcR17/Angappan-Paediatrics.jpg",
     "name": "Dr. k. Angappan",
     "degree": "MBBS, MD",
     "depth": "PAEDIATRICS",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/08/MAGESH.jpg",
+    "img": "https://i.ibb.co/X2WhHpf/MAGESH.jpg",
     "name": "Dr. J. Magesh Kumar",
     "degree": "MS",
     "depth": "GENERAL SURGERY",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Sivakumar-ENT.jpg",
+    "img": "https://i.ibb.co/LpzS1Qq/Sivakumar-ENT.jpg",
     "name": "Dr. E. Sivakumar",
     "degree": "MS, DLO, DNB, FICS",
     "depth": "E.N.T",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Lavanya-Karanam-ENT.jpg",
+    "img": "https://i.ibb.co/SXGLqBf/Lavanya-Karanam-ENT.jpg",
     "name": "Dr. Lavanya Karanam",
     "degree": "MBBS",
     "depth": "E.N.T",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Thirumalai-Ortho.jpg",
+    "img": "https://i.ibb.co/dkF24rX/Thirumalai-Ortho.jpg",
     "name": "Dr. M. Thirumalai",
     "degree": "M.S",
     "depth": "ORTHOPAEDICS",
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Jagan-Surgical-Gastro.jpg",
+    "img": "https://i.ibb.co/RCLGbvx/Jagan-Surgical-Gastro.jpg",
     "name": "Dr. M. Jagan",
     "degree": "MS MCH",
     "depth": "GASTROENTEROLOGY",
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "img": "https://www.narayanihospital.com/nhrcdata/uploads/2020/03/Muthu-Neurology.jpg",
+    "img": "https://i.ibb.co/pWvWp7t/Muthu-Neurology.jpg",
     "name": "Dr. T. Muthun",
     "degree": "M.D.M",
     "depth": "NEUROLOGY",

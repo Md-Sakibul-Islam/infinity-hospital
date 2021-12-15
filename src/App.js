@@ -11,14 +11,16 @@ import Doctors from "./Components/Doctors/Doctors";
 import Login from "./Components/Login/Login";
 import NotFound from "./Components/NotFound/NotFound";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import AuthProvider from "./Context/AuthProvider";
 import ServicesDetails from "./Components/ServicesDetails/ServicesDetails";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import HealthCarePackage from "./Components/HealthCarePackage/HealthCarePackage";
+import CopyRights from "./Components/CopyRights/CopyRights";
+
 AOS.init({
-  duration : 2600
+  duration: 2600,
 });
 function App() {
   return (
@@ -50,10 +52,13 @@ function App() {
           <Route path="/package">
             <HealthCarePackage></HealthCarePackage>
           </Route>
-          <Route path="/login">
-           <Login></Login>
+          <Route path="/package">
+            <HealthCarePackage></HealthCarePackage>
           </Route>
-          <Route path='*'>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
@@ -61,6 +66,9 @@ function App() {
 
       <div className="container-fluid  footer-section">
         <Footer></Footer>
+      </div>
+      <div className="container-fluid copy-right">
+        <CopyRights></CopyRights>
       </div>
     </AuthProvider>
   );
