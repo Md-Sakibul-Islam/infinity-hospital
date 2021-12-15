@@ -143,7 +143,7 @@ const Login = () => {
                     <Form.Check
                       onClick={handleCheck}
                       type="checkbox"
-                      label="Already Registred?"
+                      label="Already Registered?"
                     />
                   </Form.Group>
                   {isChecked ? (
