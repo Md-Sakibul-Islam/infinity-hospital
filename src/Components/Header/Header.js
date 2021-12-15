@@ -20,7 +20,7 @@ const Header = () => {
               <Nav.Link as={Link} to="/doctors">Doctors</Nav.Link>
               <Nav.Link as={Link} to="/package">Health Package</Nav.Link>
              <div className="mt-2 me-2"><small style={{color:'white'}} >{user.displayName}</small></div>
-              {user.displayName ? <Button variant="dark" onClick={logOut}>LogOUt</Button> : <Nav.Link as={Link} to="/login">Login</Nav.Link> }
+              {user.displayName ? <Button variant="dark" onClick={logOut}>LogOut</Button> : <Nav.Link as={Link} to="/login">Login</Nav.Link> }
               
             </Nav>
           </Navbar.Collapse>

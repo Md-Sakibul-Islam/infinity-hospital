@@ -52,9 +52,7 @@ function App() {
           <Route path="/package">
             <HealthCarePackage></HealthCarePackage>
           </Route>
-          <Route path="/package">
-            <HealthCarePackage></HealthCarePackage>
-          </Route>
+          
           <Route path="/login">
             <Login></Login>
           </Route>
@@ -62,14 +60,13 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <div className="container-fluid  footer-section">
+          <Footer></Footer>
+        </div>
+        <div className="container-fluid copy-right">
+      <CopyRights></CopyRights>
+      </div>
       </BrowserRouter>
-
-      <div className="container-fluid  footer-section">
-        <Footer></Footer>
-      </div>
-      <div className="container-fluid copy-right">
-        <CopyRights></CopyRights>
-      </div>
     </AuthProvider>
   );
 }

@@ -3,7 +3,8 @@ import { Col, Nav, Row } from "react-bootstrap";
 import fbLogo from "../../images/fb.png";
 import inLogo from "../../images/in.png";
 import twLogo from "../../images/tw.png";
-import locationLogo from '../../images/loc.png'
+import locationLogo from "../../images/loc.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
@@ -46,10 +47,11 @@ const Footer = () => {
           <div className="text-center mt-3">
             <h2 className="ms-3">Quick Links</h2>
             <div className="ms-5">
-              <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link href="/services">Services</Nav.Link>
-              <Nav.Link href="/doctors">Doctor</Nav.Link>
-              <Nav.Link href="/package">Health Care Package</Nav.Link>
+              <Nav.Link className="text-light">-Visiting Information</Nav.Link>
+              <Nav.Link className="text-light">
+                -Information For Caretakers
+              </Nav.Link>
+              <Nav.Link className="text-light">-Blog</Nav.Link>
             </div>
           </div>
         </Col>
@@ -57,16 +59,14 @@ const Footer = () => {
           <div className="text-center mt-3">
             <h2 className="ms-3">Our Location</h2>
             <div className="ms-5">
-            <div className="text-center">
-                <img style={{width:'70px'}} src={locationLogo} alt="" />
+              <div className="text-center">
+                <img style={{ width: "70px" }} src={locationLogo} alt="" />
               </div>
               <div className="text-center">
-                
                 <h6>Rajshahi,Laxmipur</h6>
                 <h6>Center Road :-03</h6>
                 <h6>In front of Bank Asia</h6>
               </div>
-
             </div>
           </div>
         </Col>

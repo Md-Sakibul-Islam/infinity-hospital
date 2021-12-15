@@ -97,7 +97,7 @@ const Login = () => {
   // --------------- Login with google function area ENd ---------------
 
   return (
-    <div className="sign-up mt-lg-5 mt-sm-2">
+    <div className="sign-up mt-5 mt-lg-5 mt-sm-2">
       <Container>
         <Row >
           <Col sm={12} md={5} lg={5}>
