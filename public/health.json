@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/covid-package-banner.jpeg?itok=9I7ptua-",
+    "title": "Post-COVID Care Package",
+    "price": 500,
+    "gender": "Male, Female"
+  },
+  {
+    "id": 2,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/prostate-screening-package.jpg?itok=KDhxa2Xm",
+    "title": "Prostate Screening",
+    "price": 2500,
+    "gender": "Male"
+  },
+  {
+    "id": 3,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/pediatric-screening-package.jpg?itok=eBXZ22yX",
+    "title": "Pediatric Screening Package",
+    "price": 1500,
+    "gender": "Male, Female"
+  },
+  {
+    "id": 4,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/comprehensive-cancer-screening-package-female.jpg?itok=aqR8bgyk",
+    "title": "Comprehensive Cancer Screening Package",
+    "price": 5000,
+    "gender": "Male"
+  },
+  {
+    "id": 5,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/comprehensive-cancer-screening-package-male_1.jpg?itok=KFIrl1_M",
+    "title": "Comprehensive Cancer Screening Package",
+    "price": 3500,
+    "gender": "Female"
+  },
+  {
+    "id": 6,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/comprehensive-cardiac-screening-package_1.jpg?itok=dAHWtvEX",
+    "title": "Comprehensive Cardiac Screening Package",
+    "price": 3999,
+    "gender": "Male, Female"
+  },
+  {
+    "id": 7,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/Diabetes-health-check-package_514-x-233_Image-1.jpg?itok=48tnvw6p",
+    "title": " Diabetes Screening Package - 1",
+    "price": 3000,
+    "gender": "Male, Female"
+  },
+  {
+    "id": 8,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/kidney-plus.jpg?itok=k8ULbja2",
+    "title": "Kidney Plus Package",
+    "price": 4500,
+    "gender": "Male, Female"
+  },
+  {
+    "id": 9,
+    "img": "https://www.columbiaindiahospitals.com/sites/default/files/styles/listing_pages/public/health-check/women-well-plus.jpg?itok=sSlMw3Mw",
+    "title": "Women Wellness  Health Package",
+    "price": 5500,
+    "gender": "Female"
+  }
+]

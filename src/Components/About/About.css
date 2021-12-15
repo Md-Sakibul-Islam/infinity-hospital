@@ -1,5 +1,6 @@
 
 .about-section{
+    font-family: 'Poppins', sans-serif;
     margin-top: 80px;
 }
 .communication-section{
@@ -25,5 +26,6 @@ line-height: 6vh;
     padding: 10px;
 }
 .about-card-img{
+   
     box-shadow: 5px 5px 10px lightgray;
 }

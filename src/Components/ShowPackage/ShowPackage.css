@@ -1,0 +1,10 @@
+.package-card{
+    box-shadow: 10px 10px 10px lightgray;
+    transition: all;
+    transform: scale(1);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.package-card:hover{
+transform: scale(1.04);
+}

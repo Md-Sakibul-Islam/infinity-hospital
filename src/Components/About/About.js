@@ -13,9 +13,10 @@ import ambulance from "../../images/ambulance.png";
 const About = () => {
   return (
     <div className="container about-section">
+      {/* Here is the about section  */}
       <Row>
         <Col sm={12} md={8} lg={8}>
-          <div>
+          <div data-aos="fade-right">
             <h2 className="text-danger">Sri Sakthi Amma</h2>
             <p>
               Sri Sakthi Amma was born on the third of January, 1976, to Shri.
@@ -35,13 +36,14 @@ const About = () => {
           </div>
         </Col>
         <Col sm={12} md={4} lg={4}>
-          <div>
-            <img className="img-fluid mt-5" src={sakthi} alt="" />
+          <div data-aos="fade-up">
+            <img className="img-fluid rounded mt-5" src={sakthi} alt="" />
           </div>
         </Col>
       </Row>
 
-      <div className="mt-5">
+{/* Here is the awards section  */}
+      <div data-aos="" className="mt-5">
         {" "}
         <span className="text-center text-danger">
           {" "}
@@ -94,10 +96,10 @@ const About = () => {
             </div>
           </Col>
         </Row>
-        <Row xs={1} md={4} className="g-4">
+        <Row data-aos="fade-up" xs={1} md={4} className="g-4">
           <Col>
             <Card className="about-card-img">
-              <Card.Img variant="top" src={a1} />
+              <Card.Img variant="top"  src={a1} />
               <Card.Body>
                 <Card.Title>"Best Hospital Award"</Card.Title>
               </Card.Body>
@@ -130,14 +132,16 @@ const About = () => {
         </Row>
       </div>
 
+      {/* Here is the communication section  */}
+
       <div className="container communication-section">
         <Row>
           <Col md={4} lg={4} sm={12}>
-            <div className="communication-part">
-              <div>
+            <div data-aos='fade-up' className="communication-part">
+              <div className="text-center">
                 <img className="w-25 mb-4" src={callLogo} alt="" />
               </div>
-              <div>
+              <div className="text-center">
                 <h5>Have A Question? Call Us Now</h5>
                 <h6>+880172700000</h6>
                 <h6>+880182700000</h6>
@@ -146,11 +150,11 @@ const About = () => {
             </div>
           </Col>
           <Col md={4} lg={4} sm={12}>
-            <div className="communication-part">
-              <div>
+            <div data-aos='fade-up'   className="communication-part">
+              <div className="text-center">
                 <img className="w-25 mb-4" src={locationLogo} alt="" />
               </div>
-              <div>
+              <div className="text-center">
                 <h5>Our Location</h5>
                 <h6>Rajshahi,Laxmipur</h6>
                 <h6>Center Road :-03</h6>
@@ -159,11 +163,11 @@ const About = () => {
             </div>
           </Col>
           <Col md={4} lg={4} sm={12}>
-           <div  className="communication-part" >
-           <div>
+           <div data-aos='fade-up'   className="communication-part" >
+           <div className="text-center">
               <img className="w-25 mb-4" src={ambulance} alt="" />
             </div>
-            <div>
+            <div className="text-center">
               <h5>Emergency Ambulance</h5>
               <h6>+8801327000000</h6>
               <h6>+8801417000000</h6>

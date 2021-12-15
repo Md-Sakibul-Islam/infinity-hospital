@@ -1,3 +1,9 @@
+.doctor-section{
+    font-family: 'Poppins', sans-serif;
+}
+.doctor-para{
+    line-height: 30px;
+}
 .doctor-info{
     text-align: left;
     padding: 2%;

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Row } from "react-bootstrap";
 import Banner from "../Banner/Banner";
 import Service from "../Service/Service";
+import './Services.css'
 
 const Services = () => {
   const [services, setServices] = useState([]);
@@ -13,7 +14,7 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div className="container mt-5">
+    <div id="services" className="container  mt-5">
       <div data-aos="fade-up">
       <h3>Our Services </h3>
       <h4> <span className="text-danger">Honesty</span> is our <span className="text-danger">Quality</span> </h4>

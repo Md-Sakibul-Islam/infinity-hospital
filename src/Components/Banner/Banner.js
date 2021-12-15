@@ -8,7 +8,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <>
-      <Carousel className="mt-5 mt-md-5">
+      <Carousel className="mt-0 mt-md-0">
         <Carousel.Item>
           <img className="d-block  w-100" src={bg1} alt="First slide" />
           <Carousel.Caption></Carousel.Caption>

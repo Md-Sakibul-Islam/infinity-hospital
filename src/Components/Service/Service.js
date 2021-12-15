@@ -2,8 +2,15 @@ import React from "react";
 import { Button, Card, Col } from "react-bootstrap";
 import './Service.css'
 import arrow from '../../images/next.png'
+import { useHistory } from "react-router-dom";
 const Service = (props) => {
-    const{img,title,describe}= props.service;
+    const{img,title,describe,id}= props.service;
+    const history = useHistory();
+
+    const url = `/servicesdetails/${id}`
+    const handleReadMore = ()=>{
+      history.push(url);
+    }
   return (
     <div>
       <Col>
@@ -14,7 +21,7 @@ const Service = (props) => {
             <Card.Text>
              {describe.slice(0,100)}
             </Card.Text>
-            <Button variant="secondary">Read More  <img src={arrow}  alt="" /></Button>
+            <Button onClick={handleReadMore} variant="secondary">Read More  <img src={arrow}  alt="" /></Button>
           </Card.Body>
         </Card>
       </Col>

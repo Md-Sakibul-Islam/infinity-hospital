@@ -1,0 +1,23 @@
+.details{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 2%;
+}
+.mission{
+    font-size: 17px;
+    padding: 2%;
+}
+.doctor-details{
+    box-shadow: 10px 10px 10px lightgray;
+    border-radius: 10px;
+    padding: 2%;
+
+}
+.doctor-img{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+.overview{
+    border-left: 2px solid lightgray;
+}

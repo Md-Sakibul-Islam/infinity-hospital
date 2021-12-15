@@ -6,7 +6,7 @@ import './Welcome.css'
 const Welcome = () => {
   
     return (
-        <div >
+        <div className='welcome-container'>
            <Container>
            <Row>
                 <Col   data-aos="fade-right" md={6}  sm={12} lg={5}>
