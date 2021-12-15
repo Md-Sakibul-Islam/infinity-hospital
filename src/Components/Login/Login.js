@@ -7,13 +7,13 @@ import loginLogo from "../../images/login.png";
 import "./Login.css";
 const Login = () => {
   const {
-    user,setProfile,
-    setUser,
+    setProfile,
+    setUsers,
     setError,
     signInWithGoogle,
     error,
     createNewUser,
-    logInUser, isLoading,
+    logInUser,
     setIsLoading
   } = useAuth();
 
@@ -49,8 +49,7 @@ const Login = () => {
     setIsLoading(true)
     logInUser(email,password)
     .then((userCredential) => {
-      const user = userCredential.user;
-      setUser(user);
+      setUsers(userCredential.user);
       history.push(redirectURL);
     })
     .catch((error) => {
@@ -59,13 +58,12 @@ const Login = () => {
     }).finally(()=> setIsLoading(false))
  
   }
-
+// user create function 
   const userCreateWithEmailPassword = () =>{
   
     createNewUser(email,password)
     .then((userCredential) => {
-      const user = userCredential.user;
-      setUser(user);
+      setUsers(userCredential.user);
       setProfile(name)
       history.push(redirectURL);
     })
@@ -83,8 +81,8 @@ const Login = () => {
   setIsLoading(true)
     signInWithGoogle()
       .then((result) => {
-        const user = result.user;
-        setUser(user);
+       
+        setUsers(result.user);
         history.push(redirectURL);
       })
       .catch((error) => {

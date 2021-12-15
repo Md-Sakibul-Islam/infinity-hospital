@@ -14,7 +14,7 @@ import firebaseInitialize from "../Firebase/FirebaseInit";
 firebaseInitialize();
 const useFirebase = () => {
   // -------------- user, error & loading states area START -------------
-  const [user, setUser] = useState({});
+  const [users, setUsers] = useState({});
   const [error, setError] = useState("");
   const [isLoading,setIsLoading]= useState(true);
   // -------------- user and error states area END -------------
@@ -61,16 +61,16 @@ const useFirebase = () => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
      
       if (user) {
-        setUser(user);
-        // ...
+        setUsers(user);
+        
       } else {
-        setUser({});
+        setUsers({});
       }
       setIsLoading(false)
   
     });
-    return unsubscribe;
-  }, []);
+    return ()=> unsubscribe;
+  }, [auth]);
  //------------- observe area END ---------------
 
 // --------- user LogOut area START ---------
@@ -78,7 +78,7 @@ const useFirebase = () => {
   setIsLoading(true)
     signOut(auth)
       .then(() => {
-        setUser({});
+        setUsers({});
       })
       .catch((error) => {
         setError(error);
@@ -88,8 +88,8 @@ const useFirebase = () => {
   // --------- user LogOut area END ---------
 
   return {
-    user,
-    setUser,
+    users,
+    setUsers,
     error,
     setError,
     signInWithGoogle,
