@@ -2,14 +2,14 @@ import React from "react";
 import { Button, Card, Col } from "react-bootstrap";
 import './Service.css'
 import arrow from '../../images/next.png'
-import { useHistory } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 const Service = (props) => {
     const{img,title,describe,id}= props.service;
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const url = `/servicesdetails/${id}`
     const handleReadMore = ()=>{
-      history.push(url);
+      navigate(url);
     }
   return (
     <div>

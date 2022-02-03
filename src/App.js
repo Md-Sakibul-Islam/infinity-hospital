@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
@@ -28,44 +28,36 @@ function App() {
       <BrowserRouter>
         <Header></Header>
         <Banner></Banner>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
+        <Routes>
+          <Route path="/" element={<Home></Home>}></Route>
 
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/about">
-            <About></About>
-          </Route>
-          <Route path="/services">
-            <Services></Services>
-          </Route>
-          <PrivateRoute path="/servicesdetails/:id">
-            <ServicesDetails></ServicesDetails>
-          </PrivateRoute>
+          <Route path="/home" element={<Home></Home>}></Route>
+          <Route path="/about" element={<About></About>}></Route>
+          <Route path="/services" element={<Services></Services>}></Route>
+          <Route
+            path="/servicesdetails/:id"
+            element={
+              <PrivateRoute>
+                <ServicesDetails></ServicesDetails>
+              </PrivateRoute>
+            }
+          ></Route>
 
-          <Route path="/doctors">
-            <Doctors></Doctors>
-          </Route>
-          <Route path="/package">
-            <HealthCarePackage></HealthCarePackage>
-          </Route>
-          
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
+          <Route path="/doctors" element={<Doctors></Doctors>}></Route>
+          <Route
+            path="/package"
+            element={<HealthCarePackage></HealthCarePackage>}
+          ></Route>
+
+          <Route path="/login" element={<Login></Login>}></Route>
+          <Route path="*" element={<NotFound></NotFound>}></Route>
+        </Routes>
         <div className="container-fluid  footer-section">
           <Footer></Footer>
         </div>
         <div className="container-fluid copy-right">
-      <CopyRights></CopyRights>
-      </div>
+          <CopyRights></CopyRights>
+        </div>
       </BrowserRouter>
     </AuthProvider>
   );

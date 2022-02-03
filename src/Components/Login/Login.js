@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Row, Col, Container, Form, Button } from "react-bootstrap";
-import { useLocation } from "react-router-dom";
-import { useHistory } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+
 import useAuth from "../../Hooks/useAuth";
 import loginLogo from "../../images/login.png";
 import "./Login.css";
@@ -17,13 +17,13 @@ const Login = () => {
     setIsLoading
   } = useAuth();
 
-   //------------------ history ,location and redirectURL area START ----------------------
-   const history = useHistory();
+   //------------------ navigate ,location and redirectURL area START ----------------------
+   const navigate = useNavigate();
    const location = useLocation();
  
    const redirectURL = location.state?.from || "/home";
  
-   //------------------ history ,location and redirectURL area END ----------------------
+   //------------------ navigate ,location and redirectURL area END ----------------------
   // states function
   const [isChecked, setIsChecked] = useState(false);
   const [email, setEmail] = useState("");
@@ -50,7 +50,7 @@ const Login = () => {
     logInUser(email,password)
     .then((userCredential) => {
       setUsers(userCredential.user);
-      history.push(redirectURL);
+      navigate(redirectURL);
     })
     .catch((error) => {
       const errorMessage = error.message;
@@ -65,7 +65,7 @@ const Login = () => {
     .then((userCredential) => {
       setUsers(userCredential.user);
       setProfile(name)
-      history.push(redirectURL);
+      navigate(redirectURL);
     })
     .catch((error) => {
       const errorMessage = error.message;
@@ -83,7 +83,7 @@ const Login = () => {
       .then((result) => {
        
         setUsers(result.user);
-        history.push(redirectURL);
+        navigate(redirectURL);
       })
       .catch((error) => {
         const errorMessage = error.message;
